@@ -1,0 +1,133 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* 
+
+	Template Name: Uikation - Multipurpose Bootstrap 5 HTML5 Website Template
+	Author: Rainbow Design
+	
+*/
+
+/* Medium Devices, Desktops */
+@media (max-width: 991px) {
+.sticky-wrapper {
+	height: auto !important;
+}
+.header-navigation {
+	position: relative !important;
+}
+.header-top-contact ul li {
+	font-size: 10px;
+	padding: 0px 6px 0px 0px;
+}
+.contact-support-btn {
+	padding: 1px 10px !important;
+	font-size: 10px !important;
+}
+.header-social-icons a {
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+}
+.header-navigation:after {
+	display: none;
+}
+.header-navigation .container {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.header-navigation .navbar-nav > li .nav-link {
+	padding: 10px 0px;
+}
+.header-navigation .navbar-nav > li {
+	margin: 0px 0px;
+	width: 100%;
+}
+.header-navigation .navbar-nav > li .dropdown-menu:after {
+	display: none;
+}
+.share {
+	text-align: left;
+}
+}
+
+/* Small Devices, Tablets */
+@media (max-width: 767px) {
+.header-top-contact {
+	text-align: center;
+	padding-bottom: 15px;
+}
+.header-social-icons {
+	text-align: center;
+}
+.future-item h5 {
+	font-size: 30px;
+	line-height: 35px;
+}
+.testimonial-section .owl-nav {
+	top: 0px;
+}
+.slider .carousel-caption .slider-caption-box {
+	background-color: transparent !important;
+	padding: 0px;
+	border: 0px;
+}
+}
+
+/* Extra Small Devices, Phones */
+@media (max-width: 575px) {
+.slider .carousel-control-prev, .slider .carousel-control-next {
+	width: 30px;
+	height: 30px;
+	font-size: 12px;
+	line-height: 30px;
+}
+.slider .carousel-control-prev {
+	left: 10px;
+}
+.slider .carousel-control-next {
+	right: 10px;
+}
+.slider .carousel-caption p {
+	display: none;
+}
+.slider .carousel-caption h2 {
+	font-size: 14px;
+	line-height: 20px;
+}
+.btn-style-1, .btn-style-2 {
+	padding: 10px 10px;
+	font-size: 10px;
+}
+.section-title h3 {
+	font-size: 30px;
+}
+.section-title h3 span:before, .section-title h3 span:after {
+	width: 40px;
+}
+.section-title h3 span:after {
+	left: -20px;
+}
+.section-title h3 span:before {
+	right: -20px;
+}
+.filter1 li {
+	width: 46%;
+	margin-bottom: 6px;
+}
+.subscribe-form input {
+	width: 100%;
+}
+.subscribe-form button {
+	width: 100%;
+	margin-top: 6px;
+}
+.search-box .input-group .input-group-append button {
+	width: 100px;
+	font-size: 12px;
+}
+.tags ul li a {
+	margin-bottom: 6px;
+	display: inline-block;
+}
+}
